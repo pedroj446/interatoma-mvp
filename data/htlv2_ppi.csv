@@ -1,0 +1,8 @@
+virus,viral_protein,host_protein,interaction_type,source
+HTLV-2,Tax-2,CREB,Transcriptional activation,https://doi.org/10.1038/nrm2154
+HTLV-2,Tax-2,NF-κB p65,NF-κB pathway activation,https://doi.org/10.1038/nrm2154
+HTLV-2,Rex-2,CRM1,Nuclear export of viral mRNA,https://doi.org/10.1016/S0140-6736(01)06584-2
+HTLV-2,p28,MHC-I,Down-regulation of antigen presentation,https://doi.org/10.1016/j.virol.2015.03.022
+HTLV-2,HBZ-like,p300/CBP,Transcriptional modulation,https://doi.org/10.1016/S0140-6736(01)06584-2
+
+
