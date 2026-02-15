@@ -10,7 +10,7 @@ pub struct NetworkStats {
     pub avg_degree: f64,
 }
 
-pub fn network_stats(graph: &Graph<Protein, (), Undirected>) -> NetworkStats {
+pub fn network_stats<E>(graph: &Graph<Protein, E, Undirected>) -> NetworkStats {
     let nodes = graph.node_count();
     let edges = graph.edge_count();
 
@@ -27,7 +27,7 @@ pub fn network_stats(graph: &Graph<Protein, (), Undirected>) -> NetworkStats {
     }
 }
 
-pub fn node_degrees(graph: &Graph<Protein, (), Undirected>) -> HashMap<Protein, usize> {
+pub fn node_degrees<E>(graph: &Graph<Protein, E, Undirected>) -> HashMap<Protein, usize> {
     graph
         .node_indices()
         .map(|i| (graph[i].clone(), graph.neighbors(i).count()))
