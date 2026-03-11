@@ -194,5 +194,4 @@ MIT License
 
 ```
 
-3. **a estrutura ideal de repositório para dissertação + artigo científico**.
-```
+
